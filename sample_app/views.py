@@ -10,6 +10,7 @@ def variables_view(request):
         'first_name': 'moses',
         'last_name': 'burkhart',
         'some_list': [1,2,3],
+        'user_logged_in': False,
         'some_dict': {'inside_key': 'inside_value'}
     }
 
