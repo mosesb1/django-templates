@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Variables.html</h1>
-    <h2>My first name is {{first_name | lower | capfirst}}. My last name is {{last_name | lower | capfirst}}</h2>
+    {% comment %} <h2>My first name is {{first_name | lower | capfirst}}. My last name is {{last_name | lower | capfirst}}</h2>
     {% if user_logged_in %}
         <h1>User logged In </h1>
     {% endif %}
@@ -22,7 +22,7 @@
         {% endif %}
     {% endfor %}
     <p>{{some_list.2}}</p>
-    <p>{{some_dict.inside_key}}</p>
+    <p>{{some_dict.inside_key}}</p> {% endcomment %}
     <p>{# this is a comment #}</p>
 </body>
 </html>
