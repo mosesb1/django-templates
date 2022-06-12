@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('sample_app/', include('sample_app.urls'))
 ]
+
+handler404 = 'templates_example.views.error_view'
